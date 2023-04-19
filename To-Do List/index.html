@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    
+    <section id="alert">
+        <div class="alert-modal"></div>
+    </section>
+
+    <section class="wrapper">
+        <header>To Do App</header>
+        <div class="input">
+            <input type="text" placeholder="Add Your Task" id="data">
+            <button class="button-30" id="add-btn">Add Task</button>
+        </div>
+        <ul class="ToDoList">
+            
+        </ul>
+        <footer>
+            <p>You Have a <span class="count"></span> Pending Tasks.</p>
+            <button class="button-30" id="red-btn">Clear All</button>
+        </footer>
+    </section>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
